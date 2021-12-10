@@ -1,0 +1,18 @@
+@media  only screen and (max-width:480px) {
+    main{
+        width: 90%;
+
+    }
+    .photo{
+        width: calc(90% - 20px);
+        height: calc((70vw - 20px) / 9*16);
+    }
+}
+
+@media only screen and (min-width: 1400px){
+    .photo{
+        width:calc(30% - 20px);
+        height:calc((25vw - 10px)/ 16*9);
+    }
+    
+}

@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 70%;
+    background-color: antiquewhite;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    width: 100%;
+}
+.photo:hover{
+    transform: scale(1.05) rotate(2deg);
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px) /16*9);
+    background-color: #808080;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+#photo1{
+    background-image: url(../img/img_01.jpg);
+}
+#photo2{
+    background-image: url(../img/img_02.jpg);
+}
+#photo3{
+    background-image: url(../img/img_03.jpg);
+}
+#photo4{
+    background-image: url(../img/img_04.jpg);
+}
+#photo5{
+    background-image: url(../img/img_05.jpg);
+}
+#photo6{
+    background-image: url(../img/img_06.jpg);
+}
+#photo7{
+    background-image: url(../img/img_07.jpg);
+}
+#photo8{
+    background-image: url(../img/img_08.jpg);
+}
+#photo9{
+    background-image: url(../img/img_09.jpg);
+}
+#photo10{
+    background-image: url(../img/img_10.jpg);
+}
+#photo111{
+    background-image: url(../img/img_11.jpg);
+}
+#photo12{
+    background-image: url(../img/img_12.jpg);
+}
+.button{
+    padding-top: 30px;
+    text-align: center;
+}
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border: 1px solid #808080;
+}
+a:hover {
+    background-color: #000;
+    transition-duration: 0.4s;
+}
